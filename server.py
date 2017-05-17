@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Para pasar a .exe:
+py to.exe:
 
 pyinstaller yourprogram.py
 """
@@ -15,7 +15,7 @@ from time import gmtime, strftime
 TCP_IP = '127.0.0.1'
 TCP_PORT = 5022
 BUFFER_SIZE = 1024  # Normally 1024, but we want fast response
-MESSAGE_OFF_PC = "b'OffPCGabriel'"
+MESSAGE_OFF_PC = "b'OffPC'"
 MESSAGE_KILL = "b'a'"
 MESSAGE_START = "b'b'"
 MESSAGE_START_T = "b'c'"
